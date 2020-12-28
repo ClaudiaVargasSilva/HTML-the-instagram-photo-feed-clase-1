@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    margin: 0;
+    margin-top: 30px;
+}
+.container {
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin: auto;  
+    
+}
+img{
+    width: 100%;
+}
+.header {
+    height: 30px;
+    flex-direction: row;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    
+}
+.icono {
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.fa-html5 {
+    font-size: 40px;
+}
+.titulo {
+    margin: 0;
+    display: block;
+    margin-right: auto;
+    
+
+}
+.fa-bookmark {
+    margin-left: auto;
+    float: right;
+}
+.texto {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+h2, h3 {
+    margin: 0;
+    font-size: 16px;
+}
