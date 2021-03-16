@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap%27');
+
 body {
     background-color: black;
     margin: 0;
@@ -5,9 +7,11 @@ body {
 }
 .container {
     background-color: white;
-    width: 500px;
-    height: 600px;
-    margin: auto;  
+    width: 310px;
+    height: 511px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    
     
 }
 img{
@@ -17,14 +21,17 @@ img{
     height: 30px;
     flex-direction: row;
     display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 10px; 
     
 }
 .icono {
-    font-size: 30px;
+    font-size: 23px;
     margin-right: 5px;
     margin-top: 0;
     margin-bottom: 0;
@@ -50,8 +57,23 @@ img{
     padding-top: 10px;
 
 }
-
 h2, h3 {
     margin: 0;
     font-size: 16px;
+}
+p {
+    text-align: justify
+}
+#icono {
+    font-size: 33px;
+
+}
+.fa-paper-plane:before {
+    content: "\f1d8";
+    margin-left: 5px;
+}
+.fa-ellipsis-v:before {
+    content: "\f142";
+    font-size: 26px;
+    margin-right: -16px; 
 }
